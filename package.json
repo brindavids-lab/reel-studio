@@ -1,0 +1,15 @@
+{
+  "name": "reel-studio",
+  "version": "0.1.0",
+  "description": "Drop a talking video, pick a style and fonts, hand it to Claude, download the finished reel.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "node server.mjs --open",
+    "serve": "node server.mjs",
+    "jobs": "node scripts/jobs.mjs"
+  }
+}

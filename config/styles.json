@@ -1,0 +1,95 @@
+[
+  {
+    "id": "headline",
+    "name": "Headline",
+    "tagline": "For tips, numbers and results. Big and clear.",
+    "caption": { "font": "anton", "size": 0.092, "color": "#FFFFFF", "accent": "#FFE45C", "outline": "#000000", "outlineWidth": 0.011, "shadow": 0.003, "case": "upper", "wordsPerLine": 3, "mode": "pop", "position": "lower", "stripPunctuation": true },
+    "title": { "line1Font": "poppins-bold", "line1Size": 0.04, "line1Case": "upper", "accentFont": "anton", "accentSize": 0.13, "accentCase": "none", "spacing": 0.004, "outline": 0.006, "outlineColor": "#000000" },
+    "note": { "font": "anton", "color": "#111111", "bg": "#FFE45C", "size": 0.05 },
+    "grade": { "eq": "contrast=1.06:saturation=1.1" },
+    "extras": { "progressBar": "#FFE45C" }
+  },
+  {
+    "id": "scrapbook",
+    "name": "Scrapbook",
+    "tagline": "For lifestyle and tips, with paper notes and handwriting.",
+    "caption": { "font": "kalam", "size": 0.066, "color": "#FFFFFF", "accent": "#FFB3D1", "outline": "#3A2430", "outlineWidth": 0.007, "shadow": 0.002, "case": "none", "wordsPerLine": 4, "mode": "static", "position": "lower" },
+    "title": { "line1Font": "poppins-bold", "line1Size": 0.04, "line1Case": "upper", "accentFont": "dm-serif-italic", "accentSize": 0.125, "accentCase": "none", "accentColor": "#FFE9A0", "spacing": 0.003, "outline": 0.003, "outlineColor": "#2A1B24" },
+    "note": { "font": "kalam", "color": "#3A1F2D", "bg": "#FFD3E4", "size": 0.045 },
+    "grade": { "eq": "saturation=1.05:brightness=0.01" }
+  },
+  {
+    "id": "signature",
+    "name": "Signature",
+    "tagline": "For a personal brand, dates and travel. Soft and elegant.",
+    "caption": { "font": "dm-serif-italic", "size": 0.078, "color": "#FFF4E0", "accent": "#FFC6DD", "outline": "#000000", "outlineWidth": 0.0, "shadow": 0.005, "case": "none", "wordsPerLine": 4, "mode": "static", "position": "lower", "blur": 1 },
+    "title": { "line1Font": "poppins-medium", "line1Size": 0.034, "line1Case": "upper", "accentFont": "dm-serif-italic", "accentSize": 0.125, "accentCase": "none", "spacing": 0.01, "outline": 0, "outlineColor": "#000000" },
+    "note": { "font": "dm-serif-italic", "color": "#4A2A3A", "bg": "#FBE3EC", "size": 0.05 },
+    "grade": { "eq": "saturation=0.95:contrast=1.03:brightness=0.02" }
+  },
+  {
+    "id": "soft",
+    "name": "Soft",
+    "tagline": "For calm talking videos and personal stories.",
+    "caption": { "font": "gaegu", "size": 0.082, "color": "#FFFFFF", "accent": "#FFF1A8", "outline": "#000000", "outlineWidth": 0.0, "shadow": 0.005, "case": "lower", "wordsPerLine": 5, "mode": "static", "position": "lower", "blur": 1 },
+    "title": { "line1Font": "gaegu", "line1Size": 0.06, "line1Case": "lower", "accentFont": "gaegu", "accentSize": 0.12, "accentCase": "lower", "spacing": 0.002, "outline": 0, "outlineColor": "#000000" },
+    "note": { "font": "gaegu", "color": "#3B3B3B", "bg": "#FFF6C9", "size": 0.055 },
+    "grade": { "eq": "saturation=0.92:contrast=0.98:brightness=0.03" }
+  },
+  {
+    "id": "pop",
+    "name": "Pop",
+    "tagline": "Comic energy for fast, funny, high-volume talkers.",
+    "caption": { "font": "bangers", "size": 0.115, "color": "#FFFFFF", "accent": "#FFD400", "outline": "#000000", "outlineWidth": 0.016, "shadow": 0.006, "case": "upper", "wordsPerLine": 2, "mode": "pop", "position": "lower", "stripPunctuation": true },
+    "title": { "line1Font": "bangers", "line1Size": 0.07, "line1Case": "upper", "accentFont": "bangers", "accentSize": 0.165, "accentCase": "upper", "spacing": 0.004, "outline": 0.012, "outlineColor": "#000000" },
+    "note": { "font": "bangers", "color": "#FFFFFF", "bg": "#E5322D", "size": 0.06 },
+    "grade": { "eq": "contrast=1.1:saturation=1.2" }
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "tagline": "Night-out glow for music, nightlife and tech.",
+    "caption": { "font": "bungee", "size": 0.064, "color": "#E8FDFF", "accent": "#FF4FD8", "outline": "#00B8D9", "outlineWidth": 0.008, "shadow": 0.0, "case": "upper", "wordsPerLine": 3, "mode": "karaoke", "position": "lower", "blur": 2, "stripPunctuation": true },
+    "title": { "line1Font": "bungee", "line1Size": 0.045, "line1Case": "upper", "accentFont": "bungee", "accentSize": 0.09, "accentCase": "upper", "accentColor": "#FF4FD8", "spacing": 0.004, "outline": 0.008, "outlineColor": "#00B8D9", "blur": 2 },
+    "note": { "font": "bungee", "color": "#06121A", "bg": "#7DF3FF", "size": 0.04 },
+    "grade": { "eq": "contrast=1.12:saturation=1.15:brightness=-0.02", "vignette": true }
+  },
+  {
+    "id": "minimal",
+    "name": "Minimal",
+    "tagline": "Clean subtitles in a quiet box. Nothing fights your face.",
+    "caption": { "font": "poppins-medium", "size": 0.05, "color": "#FFFFFF", "accent": "#7CFFB2", "outline": "#000000", "outlineWidth": 0.0, "shadow": 0.0, "case": "none", "wordsPerLine": 5, "mode": "static", "position": "lower", "box": { "color": "#000000", "alpha": 0.55, "pad": 0.014 } },
+    "title": { "line1Font": "poppins-medium", "line1Size": 0.036, "line1Case": "upper", "accentFont": "poppins-bold", "accentSize": 0.075, "accentCase": "none", "spacing": 0.008, "outline": 0, "outlineColor": "#000000" },
+    "note": { "font": "poppins-medium", "color": "#101010", "bg": "#EDEDED", "size": 0.036 },
+    "grade": { "eq": "" }
+  },
+  {
+    "id": "karaoke",
+    "name": "Karaoke",
+    "tagline": "Word-by-word highlight that keeps eyes glued to the screen.",
+    "caption": { "font": "poppins-black", "size": 0.078, "color": "#FFFFFF", "accent": "#39FF88", "outline": "#000000", "outlineWidth": 0.011, "shadow": 0.003, "case": "upper", "wordsPerLine": 3, "mode": "karaoke", "position": "middle", "stripPunctuation": true },
+    "title": { "line1Font": "poppins-black", "line1Size": 0.045, "line1Case": "upper", "accentFont": "poppins-black", "accentSize": 0.1, "accentCase": "upper", "spacing": 0.002, "outline": 0.008, "outlineColor": "#000000" },
+    "note": { "font": "poppins-black", "color": "#0A1F12", "bg": "#39FF88", "size": 0.04 },
+    "grade": { "eq": "contrast=1.05:saturation=1.12" }
+  },
+  {
+    "id": "editorial",
+    "name": "Editorial",
+    "tagline": "One big word at a time, like a magazine cover.",
+    "caption": { "font": "abril", "size": 0.17, "color": "#F6F1E7", "accent": "#FF6B4A", "outline": "#000000", "outlineWidth": 0.0, "shadow": 0.006, "case": "none", "wordsPerLine": 1, "mode": "oneword", "position": "middle", "stripPunctuation": true },
+    "title": { "line1Font": "poppins-medium", "line1Size": 0.036, "line1Case": "upper", "accentFont": "abril", "accentSize": 0.13, "accentCase": "none", "spacing": 0.012, "outline": 0, "outlineColor": "#000000" },
+    "note": { "font": "abril", "color": "#2A1510", "bg": "#F6F1E7", "size": 0.05 },
+    "grade": { "eq": "contrast=1.1:saturation=0.9" },
+    "extras": { "progressBar": "#FF6B4A" }
+  },
+  {
+    "id": "cinematic",
+    "name": "Cinematic",
+    "tagline": "Letterbox, teal shadows and film-poster type.",
+    "caption": { "font": "bebas", "size": 0.088, "color": "#F2EFE6", "accent": "#E8B04B", "outline": "#000000", "outlineWidth": 0.0, "shadow": 0.004, "case": "upper", "wordsPerLine": 5, "mode": "static", "position": "lower", "spacing": 0.006, "lowerMargin": 0.035 },
+    "title": { "line1Font": "bebas", "line1Size": 0.05, "line1Case": "upper", "accentFont": "bebas", "accentSize": 0.13, "accentCase": "upper", "accentColor": "#E8B04B", "spacing": 0.012, "outline": 0, "outlineColor": "#000000" },
+    "note": { "font": "bebas", "color": "#0C0C0C", "bg": "#E8B04B", "size": 0.05 },
+    "grade": { "eq": "contrast=1.12:saturation=0.9", "extra": "colorbalance=rs=-0.04:bs=0.07:rh=0.06:bh=-0.05", "vignette": true },
+    "extras": { "letterbox": 0.105 }
+  }
+]

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reel Studio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f1519'/%3E%3Cpath d='M12 9l11 7-11 7z' fill='%23f4a6bd'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">Reel <em>Studio</em><span class="tag">Choose how your video looks. Claude edits it for you.</span></div>
+    <label class="jobpick">Video
+      <select id="jobSelect"><option value="">New video</option></select>
+    </label>
+  </header>
+
+  <nav class="steps" id="steps">
+    <button data-step="1"><b>1</b> Video &amp; style</button>
+    <button data-step="2"><b>2</b> Fonts &amp; layout</button>
+    <button data-step="3"><b>3</b> Claude edits</button>
+  </nav>
+
+  <main class="layout">
+    <section class="stage">
+      <div class="phone">
+        <div class="screen" id="screen">
+          <video id="vid" playsinline preload="metadata"></video>
+          <div class="placeholder" id="placeholder">Drop your video<br><small>to see it in your style</small></div>
+          <div class="vignette" id="vignette"></div>
+          <div class="bar top" id="barTop"></div>
+          <div class="bar bottom" id="barBottom"></div>
+          <div class="title" id="title"></div>
+          <div class="note" id="note"></div>
+          <div class="cap" id="cap"></div>
+          <div class="progress" id="progress"></div>
+          <div class="safe" id="safe"><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="btnPlay" class="ghost">Play with sound</button>
+        <button id="btnPause" class="ghost">Pause</button>
+        <button id="btnMoment" class="ghost">Show another moment</button>
+        <label class="switch"><input type="checkbox" id="chkSafe"><span></span>Show where Instagram buttons will be</label>
+      </div>
+      <p class="hint">This is a quick preview with sample words. In the real edit Claude writes your actual captions and places everything around your face.</p>
+    </section>
+
+    <section class="panels">
+      <div class="panel" id="panel1">
+        <h2>Your video</h2>
+        <label class="drop" id="drop">
+          <input type="file" id="file" accept="video/*,.mov,.mp4,.m4v,.webm,.mkv" hidden>
+          <span id="dropText"><b>Drop a video here</b> or click to choose one<br><small>mp4, mov, m4v, webm or mkv</small></span>
+          <div class="upbar" id="upbar"><div></div></div>
+        </label>
+        <h2>Pick a style</h2>
+        <p class="lead">Ten looks, each with its own fonts, layout and colour. Pick one, then adjust everything in the next step.</p>
+        <div class="styles" id="styles"></div>
+      </div>
+
+      <div class="panel" id="panel2" hidden>
+        <h2>Fonts</h2>
+        <div class="field"><label>Title font</label><div class="chips" id="titleFonts"></div></div>
+        <div class="field"><label>Caption font</label><div class="chips" id="captionFonts"></div></div>
+        <div class="field"><label>Handwritten notes font</label><div class="chips" id="noteFonts"></div></div>
+        <h2>Colours</h2>
+        <div class="field"><label>Text colour</label><div class="swatches" id="textColors"></div></div>
+        <div class="field"><label>Accent colour <small>(highlighted words and the title)</small></label><div class="swatches" id="accentColors"></div></div>
+        <h2>Layout</h2>
+        <div class="field"><label>Format</label><div class="seg" id="formats"></div></div>
+        <div class="field"><label>Caption size</label><div class="seg" id="sizes"></div></div>
+        <div class="field"><label>Captions sit</label><div class="seg" id="positions"></div><small>Auto lets Claude look at your video and keep captions away from your face.</small></div>
+        <div class="field"><label>Fit to format</label><div class="seg" id="fits"></div></div>
+        <h2>Edit</h2>
+        <label class="switch"><input type="checkbox" id="chkSilence"><span></span>Cut long pauses</label>
+        <label class="switch"><input type="checkbox" id="chkLoud"><span></span>Even out the volume</label>
+        <div class="field"><label>Title <small>(optional, Claude writes one if you leave it blank)</small></label><input type="text" id="titleText" placeholder="e.g. How I edit yap videos"></div>
+        <div class="field"><label>Anything else? <small>One request per line</small></label><textarea id="changes" rows="3" placeholder="make the captions bigger&#10;add a sticker when I say Barcelona"></textarea></div>
+      </div>
+
+      <div class="panel" id="panel3" hidden>
+        <div id="handoff"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="dock" id="dock">
+    <div class="dock-msg"><b id="dockStyle">Headline</b><span id="dockChange">No changes, the style as it is</span></div>
+    <button class="ghost" id="btnUndo" disabled>Undo</button>
+    <button class="ghost" id="btnBack" hidden>Back</button>
+    <button class="primary" id="btnNext">Next: fonts and layout</button>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

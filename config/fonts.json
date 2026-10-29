@@ -1,0 +1,19 @@
+[
+  { "id": "anton", "label": "Anton", "family": "Anton", "file": "Anton-Regular.ttf", "bold": 0, "italic": 0, "vibe": "tall and loud" },
+  { "id": "bebas", "label": "Bebas Neue", "family": "Bebas Neue", "file": "BebasNeue-Regular.ttf", "bold": 0, "italic": 0, "vibe": "film poster" },
+  { "id": "staatliches", "label": "Staatliches", "family": "Staatliches", "file": "Staatliches-Regular.ttf", "bold": 0, "italic": 0, "vibe": "clean block caps" },
+  { "id": "poppins-medium", "label": "Poppins Medium", "family": "Poppins Medium", "file": "Poppins-Medium.ttf", "bold": 0, "italic": 0, "vibe": "clean and modern" },
+  { "id": "poppins-bold", "label": "Poppins Bold", "family": "Poppins", "file": "Poppins-Bold.ttf", "bold": 1, "italic": 0, "vibe": "friendly and strong" },
+  { "id": "poppins-black", "label": "Poppins Black", "family": "Poppins Black", "file": "Poppins-Black.ttf", "bold": 0, "italic": 0, "vibe": "heavy and rounded" },
+  { "id": "archivo-black", "label": "Archivo Black", "family": "Archivo Black", "file": "ArchivoBlack-Regular.ttf", "bold": 0, "italic": 0, "vibe": "punchy sans" },
+  { "id": "dm-serif", "label": "DM Serif Display", "family": "DM Serif Display", "file": "DMSerifDisplay-Regular.ttf", "bold": 0, "italic": 0, "vibe": "elegant serif" },
+  { "id": "dm-serif-italic", "label": "DM Serif Italic", "family": "DM Serif Display", "file": "DMSerifDisplay-Italic.ttf", "bold": 0, "italic": 1, "vibe": "soft and elegant" },
+  { "id": "abril", "label": "Abril Fatface", "family": "Abril Fatface", "file": "AbrilFatface-Regular.ttf", "bold": 0, "italic": 0, "vibe": "editorial magazine" },
+  { "id": "kalam", "label": "Kalam", "family": "Kalam", "file": "Kalam-Bold.ttf", "bold": 1, "italic": 0, "vibe": "handwritten notes" },
+  { "id": "gaegu", "label": "Gaegu", "family": "Gaegu", "file": "Gaegu-Bold.ttf", "bold": 1, "italic": 0, "vibe": "cute and calm" },
+  { "id": "pacifico", "label": "Pacifico", "family": "Pacifico", "file": "Pacifico-Regular.ttf", "bold": 0, "italic": 0, "vibe": "surf script" },
+  { "id": "lobster", "label": "Lobster", "family": "Lobster", "file": "Lobster-Regular.ttf", "bold": 0, "italic": 0, "vibe": "retro script" },
+  { "id": "bangers", "label": "Bangers", "family": "Bangers", "file": "Bangers-Regular.ttf", "bold": 0, "italic": 0, "vibe": "comic book" },
+  { "id": "bungee", "label": "Bungee", "family": "Bungee", "file": "Bungee-Regular.ttf", "bold": 0, "italic": 0, "vibe": "neon signage" },
+  { "id": "righteous", "label": "Righteous", "family": "Righteous", "file": "Righteous-Regular.ttf", "bold": 0, "italic": 0, "vibe": "retro future" }
+]
