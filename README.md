@@ -16,7 +16,7 @@ Everything runs on your own computer. Your video is never uploaded anywhere.
 
 You need [Claude Code](https://claude.com/claude-code) (the desktop app, the CLI, or an IDE extension).
 
-1. Download this repo: click **Code, Download ZIP** on GitHub and unzip it, or run `git clone <this repo's URL>`.
+1. Download this repo: click **Code, Download ZIP** on GitHub and unzip it, or run `git clone https://github.com/brindavids-lab/reel-studio.git`.
 2. Open the folder in Claude Code.
 3. Say: **"Install Reel Studio and start it."**
 
